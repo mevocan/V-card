@@ -23,10 +23,13 @@
         </li>
       </ul>
       <p>
-        Merhaba, ben Durmuş Küçük. İnsanları bir araya getiren, hayatı daha
-        eğlenceli ve paylaşılır kılan deneyimler tasarlamayı seviyorum.
-        Teknoloji ve topluluğu buluşturarak anı biriktirmeye alan açan bir
-        platform yaratmak için yola çıktım.
+        Merhaba, ben Durmuş Küçük. <br />
+        İnsanların sosyal yaşamlarını zenginleştirecek etkinlikleri daha kolay
+        keşfedebilmeleri ve bu etkinliklere rahatlıkla erişebilmeleri amacıyla
+        Aqtivite platformunu kurdum. Teknoloji ve topluluk yapısını
+        birleştirerek, kullanıcıların yaşadıkları şehirlerdeki çeşitli
+        deneyimlere ulaşmasını kolaylaştıran bir yapı geliştirmeye
+        odaklanıyorum.
       </p>
     </div>
   </section>

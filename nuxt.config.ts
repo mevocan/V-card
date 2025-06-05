@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
+      title: 'Durmuş Küçük',
       meta: [
         { name: 'description', content: 'Durmuş Küçük' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
