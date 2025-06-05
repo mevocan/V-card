@@ -14,16 +14,26 @@
 import { onMounted } from "vue";
 
 onMounted(() => {
-  window.addEventListener("load", function () {
-    document.querySelector(".preloader-outer").style.transition =
-      "opacity 0.6s";
-    setTimeout(function () {
-      document.querySelector(".preloader-outer").style.opacity = "0";
-      setTimeout(function () {
-        document.querySelector(".preloader-outer").style.display = "none";
-      }, 600);
-    }, 350);
-  });
+  function hidePreloader() {
+    const preloader = document.querySelector(".preloader-outer");
+    if (preloader) {
+      preloader.style.transition = "opacity 0.6s";
+      setTimeout(() => {
+        preloader.style.opacity = "0";
+        setTimeout(() => {
+          preloader.style.display = "none";
+        }, 600);
+      }, 350);
+    }
+  }
+
+  if (document.readyState === "complete") {
+    // Sayfa zaten yüklenmişse hemen kapat
+    hidePreloader();
+  } else {
+    // Yoksa load event'ini bekle
+    window.addEventListener("load", hidePreloader);
+  }
 });
 </script>
 
