@@ -1,7 +1,7 @@
 <template>
   <section id="resume" class="resume">
     <div class="section-header">
-      <h2>Deneyim</h2>
+      <h2>DENEYİM</h2>
     </div>
 
     <div class="row">

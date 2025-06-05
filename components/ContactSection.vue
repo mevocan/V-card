@@ -2,7 +2,7 @@
   <section id="contact" class="contact">
     <div class="c2">
     <div class="section-header">
-      <h2>İletişim</h2>
+      <h2>İLETİŞİM</h2>
     </div>
 
     <form method="post">

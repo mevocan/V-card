@@ -1,7 +1,7 @@
 <template>
   <section id="about" class="about">
     <div class="section-header">
-      <h2>Hakkımda</h2>
+      <h2>HAKKIMDA</h2>
     </div>
     <div class="intro">
       <ul class="info">

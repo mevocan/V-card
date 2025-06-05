@@ -1,7 +1,7 @@
 <template>
   <section id="aqtivite" class="aqtivite">
     <div class="section-header">
-      <h2>Aqtivite</h2>
+      <h2>AQTİVİTE </h2>
     </div>
     <div class="row">
       <div class="col-12">
@@ -42,7 +42,7 @@
   <!-- Section Status -->
   <section id="status" class="status">
     <div class="section-header-light">
-      <h2>Aqtivite İstatistikleri</h2>
+      <h2>AQTİVİTE İSTATİSLİKLERİ</h2>
     </div>
 
     <div class="row">
