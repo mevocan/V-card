@@ -1,55 +1,95 @@
 <template>
   <section id="contact" class="contact">
-				<div class="section-header">
-					<h2>
-						İletişim
-					</h2>
-				</div>
+    <div class="c2">
+    <div class="section-header">
+      <h2>İletişim</h2>
+    </div>
 
-				<form method="post">
-					<div class="row">
-						<div class="col-md-6 col-sm-6 col-12">
-							<div class="mb-3">
-								<input type="text" class="form-control" name="InputName" id="InputName"
-									placeholder="Adınız" required="">
-							</div>
-						</div>
+    <form method="post">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-12">
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              name="InputName"
+              id="InputName"
+              placeholder="Adınız"
+            />
+          </div>
+        </div>
 
-						<div class="col-md-6 col-sm-6 col-12">
-							<div class="mb-3">
-								<input type="email" class="form-control" id="InputEmail" name="InputEmail"
-									placeholder="Email" required="">
-							</div>
-						</div>
+        <div class="col-md-6 col-sm-6 col-12">
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="InputEmail"
+              name="InputEmail"
+              placeholder="Email"
+            />
+          </div>
+        </div>
 
-						<div class="col-md-6 col-sm-6 col-12">
-							<div class="mb-3">
-								<input type="text" class="form-control" name="InputPhone" id="InputPhone"
-									placeholder="Telefon">
-							</div>
-						</div>
+        <div class="col-md-6 col-sm-6 col-12">
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              name="InputPhone"
+              id="InputPhone"
+              placeholder="Telefon"
+            />
+          </div>
+        </div>
 
-						<div class="col-md-6 col-sm-6 col-12">
-							<div class="mb-3">
-								<input type="text" class="form-control" id="InputSubject" name="InputSubject"
-									placeholder="Konu" required="">
-							</div>
-						</div>
+        <div class="col-md-6 col-sm-6 col-12">
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="InputSubject"
+              name="InputSubject"
+              placeholder="Konu"
+            />
+          </div>
+        </div>
 
-						<div class="col-12">
-							<div class="mb-3">
-								<textarea name="InputMessage" id="InputMessage" class="form-control" rows="6"
-									placeholder="Mesaj" required=""></textarea>
-							</div>
-						</div>
-
-					</div>
-					<input type="submit" name="submit" id="submit" value="Gönder" class="btn btn-default float-start">
-				</form>
-			</section>
+        <div class="col-12">
+          <div class="mb-3">
+            <textarea
+              name="InputMessage"
+              id="InputMessage"
+              class="form-control h-100"
+              rows="6"
+              placeholder="Mesaj"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+      <input
+        type="submit"
+        name="submit"
+        id="submit"
+        value="Gönder"
+        class="btn btn-default float-start"
+      />
+    </form>
+  </div>
+  </section>
 </template>
 
-<style>
+<style >
+.contact {
+  height: 100vh;
+}
+.c2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 /* === Button === */
 .btn-default {
   color: #fff;
@@ -85,5 +125,4 @@
   outline: 0;
   box-shadow: none;
 }
-
 </style>

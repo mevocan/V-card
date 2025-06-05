@@ -1,13 +1,13 @@
 <template>
-    <div class="preloader-outer">
-      <div class="preloader">
-        <div class="lines">
-          <div class="line line-1"></div>
-          <div class="line line-2"></div>
-          <div class="line line-3"></div>
-        </div>
+  <div class="preloader-outer">
+    <div class="preloader">
+      <div class="lines">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
       </div>
     </div>
+  </div>
 </template>
 
 <script setup>
@@ -126,5 +126,4 @@ onMounted(() => {
     opacity: 1;
   }
 }
-
 </style>

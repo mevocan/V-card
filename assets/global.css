@@ -1,7 +1,4 @@
 
-/*-----------------------------------------------------------------*/
-/*                      GLOBAL STYLES                              */
-/*-----------------------------------------------------------------*/
 html {
   scroll-behavior: smooth;
 }
@@ -41,17 +38,12 @@ a:hover {
   color: #0c0c0c;
   text-decoration: none;
 }
-/*-----------------------------------------------------------------*/
-/*                      LAYOUT                                     */
-/*-----------------------------------------------------------------*/
+
 .main-wrapper {
   width: 1000px;
   margin: 0 auto;
 }
 
-/*-----------------------------------------------------------------*/
-/*                      MAIN CONTENT                               */
-/*-----------------------------------------------------------------*/
 .main-content {
   background: #fff;
   width: 740px;
@@ -68,7 +60,7 @@ a:hover {
 .main-content section {
   padding: 60px 70px;
   position: relative;
-  border-bottom: solid 1px #eee;
+  border-bottom: solid 1px #626262;
 }
 
 /* === Section Header === */
@@ -155,9 +147,3 @@ a:hover {
   border-right: solid 3px #fff !important;
   border-bottom: solid 3px #fff !important;
 }
-
-
-
-/*-----------------------------------------------------------------*/
-/*                      RESPONSIVE                                  */
-/*-----------------------------------------------------------------*/

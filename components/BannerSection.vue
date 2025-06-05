@@ -80,5 +80,4 @@
   width: 100%;
   filter: brightness(0.3);
 }
-
 </style>
