@@ -4,6 +4,10 @@
       <h2>Yaşam eğlenceyle dolu bir serüven olmalı, bir görev değil.</h2>
       <span class="author">- Helen Keller -</span>
     </div>
+    <div class="arrows">
+      <span class="arrow"></span>
+      <span class="arrow"></span>
+    </div>
     <div class="overlay"></div>
   </section>
 </template>
@@ -70,6 +74,43 @@
   font-weight: 300;
   margin-top: 10px;
 }
+
+.banner .arrows {
+  position: absolute;
+  left: 50%;
+  bottom: 100px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.banner .arrow {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-left: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  transform: rotate(-45deg);
+  margin: 4px 0;
+  animation: bounce 2.5s infinite;
+  opacity: 0.8;
+}
+
+.banner .arrow:last-child {
+  animation-delay: 0.5s;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0) rotate(-45deg);
+  }
+  50% {
+    transform: translateY(10px) rotate(-45deg);
+  }
+}
+
 
 .banner .overlay {
   background-image: url(assets/images/bg.jpg);

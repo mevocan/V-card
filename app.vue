@@ -15,6 +15,9 @@
       <AqtiviteSection />
       <ContactSection />
     </div>
+
+    <!-- UpButton -->
+    <UpButton />
   </main>
 </template>
 
