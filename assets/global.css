@@ -1,0 +1,163 @@
+
+/*-----------------------------------------------------------------*/
+/*                      GLOBAL STYLES                              */
+/*-----------------------------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: #1a1a1a;
+  background-color: #0c0c0c;
+  font-family: "Roboto Slab", serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+li {
+  padding: 0 0 10px;
+}
+a {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+a:hover {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+/*-----------------------------------------------------------------*/
+/*                      LAYOUT                                     */
+/*-----------------------------------------------------------------*/
+.main-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/*-----------------------------------------------------------------*/
+/*                      MAIN CONTENT                               */
+/*-----------------------------------------------------------------*/
+.main-content {
+  background: #fff;
+  width: 740px;
+}
+
+.main-content p {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+/* === Section Configure === */
+.main-content section {
+  padding: 60px 70px;
+  position: relative;
+  border-bottom: solid 1px #eee;
+}
+
+/* === Section Header === */
+.main-content section .section-header {
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.main-content section .section-header h2 {
+  color: #1a1a1a;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  padding-left: 20px;
+  position: relative;
+}
+
+.main-content section .section-header h2:before {
+  content: "";
+  position: absolute;
+  background: transparent;
+  bottom: 10px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border-left: solid 3px #0c0c0c;
+  border-top: solid 3px #0c0c0c;
+}
+
+.main-content section .section-header h2:after {
+  content: "";
+  position: absolute;
+  background: transparent;
+  bottom: -10px;
+  right: -17px;
+  height: 16px;
+  width: 16px;
+  border-right: solid 3px #0c0c0c;
+  border-bottom: solid 3px #0c0c0c;
+}
+
+/* === Section Header Light === */
+.main-content section .section-header-light {
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.main-content section .section-header-light h2 {
+  color: #fff !important;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  padding-left: 20px;
+  position: relative;
+}
+
+.main-content section .section-header-light h2:before {
+  content: "";
+  position: absolute;
+  background: transparent;
+  bottom: 10px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border-left: solid 3px #fff !important;
+  border-top: solid 3px #fff !important;
+}
+
+.main-content section .section-header-light h2:after {
+  content: "";
+  position: absolute;
+  background: transparent;
+  bottom: -10px;
+  right: -17px;
+  height: 16px;
+  width: 16px;
+  border-right: solid 3px #fff !important;
+  border-bottom: solid 3px #fff !important;
+}
+
+
+
+/*-----------------------------------------------------------------*/
+/*                      RESPONSIVE                                  */
+/*-----------------------------------------------------------------*/
